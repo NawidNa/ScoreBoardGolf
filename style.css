@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(66, 121, 40);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+#Start {
+  display: flex;
+  flex: 1;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[id="name"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.save {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.save input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.holeinput {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.info,
+.par {
+  font-weight: bold;
+  margin: 0;
+  font-size: 20px;
+}
+
+i {
+  display: flex;
+  flex: 2;
+  margin-top: 10px;
+}
+
+/*  */
+
+/* alla player */
+.players {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.players div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 5px;
+}
+
+.delete-player {
+  background-color: #ff4136;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+/* spelar och namn */
+.players h4 {
+  color: white;
+  text-align: center;
+  background-color: #2a614f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Result */
+
+.totaltScore {
+
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
